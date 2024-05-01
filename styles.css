@@ -30,7 +30,12 @@ div {
   padding-left: 20px;
 }
 
+footer{
+    padding-left: 30px;
+}
+
 .centered-div {
   max-width: 1000px;
   margin: 0 auto;
 }
+
