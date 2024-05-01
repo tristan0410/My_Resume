@@ -1,79 +1,36 @@
-@media (min-width: 900px) {
-  h1,
-  h2 {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 70px;
-    font-style: normal;
-    text-align: center;
-  }
-
-  h3 {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 60px;
-    font-style: normal;
-  }
-
-  .color_block {
-    background-color: #0e46a3;
-    height: 5px;
-  }
-
-  .body_font {
-    font-family: "Reddit Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 50px;
-    font-style: normal;
-    text-align: justify;
-  }
-
-  .centered-div {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 70px;
+  font-style: normal;
+  text-align: center;
 }
 
-@media (max-width: 500px) {
-  html {
-    font-size: 9px;
-  }
+h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 60px;
+  font-style: normal;
+}
 
-  h1,
-  h2 {
-    font-family: "Cormorant Garamond", serif;
-    font-style: normal;
-    text-align: center;
-  }
+.color_block {
+  background-color: #0e46a3;
+  height: 5px;
+}
 
-  h3 {
-    font-family: "Cormorant Garamond", serif;
-    font-style: normal;
-    margin-left: 10px;
-  }
+div > ul {
+  padding-left: 30px;
+}
 
-  .color_block {
-    background-color: #0e46a3;
-    height: 5px;
-  }
+div {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: justify;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
-  div > ul {
-    padding-left: 20px;
-  }
-
-  div > ol {
-    padding-left: 20px;
-  }
-
-  div {
-    font-family: "Reddit Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: justify;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
-  .centered-div {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+.centered-div {
+  max-width: 1000px;
+  margin: 0 auto;
 }
